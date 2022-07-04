@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        />
+
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age : "
+        />
+
+
+    <TextView
+        android:id="@+id/kage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Korean Age : "
+        />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get User Info"
+        />
+
+    <Button
+        android:id="@+id/btnAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Age"
+        />
+
+</LinearLayout>
